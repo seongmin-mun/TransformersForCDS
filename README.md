@@ -1,1 +1,5 @@
 # TransformersForCDS
+
+## Abstract
+
+The current study investigates how large language models handle child language features. We specifically focus on child-directed speech in Korean, an understudied language and language-usage context. For this purpose, we develop two transformer-based binary classification models (BERT; GPT-2) and explored the extent to which these models (with three parameters manipulated: learning rate, batch size, max. sequence length) detect child-directed speech against general-purpose adult speech. Results show that, while the models demonstrate some compatibility of their performance with previous reports on child language behaviour, there are considerable asymmetries of the classification performance across the two transformers, notably affected by parameterisation. This invites the need for researchers to better understand the strengths and weaknesses of computational accounts for modelling human language behaviour, particularly when it comes to lesser-studied languages and language-usage contexts. 
